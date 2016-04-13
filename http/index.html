@@ -5,10 +5,12 @@
 <title>Search Name</title>
 </head>
 <body>
-<form action="do.njs">
-請輸入學號:<input type="text" name="userID">
+<form>
+Student ID:<input type="text" name="userID" id="userID">
 <br/>
-<input type="submit" value="查詢">
+<button type="button" onclick="searchStudentName()">search</button>
 </form>
+<p id="searchResult"></p>
+<script src="searchName.js"></script>
 </body>
 </html>
