@@ -1,13 +1,13 @@
 {
-	"teamID": "G",
-	"member":[
-	{
-	  "memberID": "h34001115",
-	  "memberName": "林羿辰"
-	},
-	{
-	  "memberID": "e94021199",
-	  "memberName": "李中皓"
-	}
-	]
+  "teamID": "G",
+  "member":[
+    {
+      "memberID": "h34001115",
+      "memberName": "林羿辰"
+    },
+    {
+      "memberID": "e94021199",
+      "memberName": "李中皓"
+    }
+  ]
 }

@@ -5,12 +5,9 @@
 <title>Search Name</title>
 </head>
 <body>
-<form>
-Student ID:<input type="text" name="userID" id="userID">
+Student ID : <input type="text" name="userID" id="userID" onchange="searchStudentName()" placeholder="ex. e94021199,h34001115">
 <br/>
-<button type="button" onclick="searchStudentName()">search</button>
-</form>
-<p id="searchResult"></p>
+Student Name : <span id="searchResult"></span>
 <script src="searchName.js"></script>
 </body>
 </html>
