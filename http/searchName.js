@@ -5,7 +5,7 @@ function searchStudentName(){
       document.getElementById("searchResult").innerHTML = xhttp.responseText;
     }
   };
-  var url = "do.njs?userID=" + document.getElementById("userID").value;
+  var url = "do?userID=" + document.getElementById("userID").value;
   xhttp.open("GET", url, true);
   xhttp.send();
 
